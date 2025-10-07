@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Boletín de Ejercicios 2</title>
+        <link rel="stylesheet" href="Boletin-02.css">
+        <script type="text/javascript" src="Boletin-02.js" defer></script>
+    </head>
+    <body>
+        <h1 id="titulo">Ejercicios de JavaScript DOM</h1>
+
+        <section>
+            <h2>1. Cambiar color del párrafo al hacer clic</h2>
+            <p id="parrafoColor">Hola</p>
+            <button onclick="cambiarColor()">Cambiar color</button>
+        </section>
+
+        <section>
+            <h2>2. Crear un párrafo nuevo dentro de un div</h2>
+            <div id="contenedorParrafos">
+                <p>Párrafo inicial dentro del div.</p>
+            </div>
+            <button onclick="crearParrafo()">Añadir párrafo</button>
+        </section>
+
+        <section>
+            <h2>3. Eliminar el último elemento de una lista</h2>
+            <ul id="Lista">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <button onclick="eliminarUltimo()">Eliminar último</button>
+        </section>
+
+        <section>
+            <h2>4. Cambiar texto del título al pasar el ratón</h2>
+            <h1 id="tituloRaton" onmouseover="cambiarTexto()" onmouseout="restaurarTexto()">Pasa el ratón por aquí</h1>
+        </section>
+
+        <section>
+            <h2>5. Ocultar y mostrar un div</h2>
+            <button onclick="toggleDiv()">Mostrar/Ocultar contenido</button>
+            <div id="divOculto">
+                <p>Hola</p>
+            </div>
+        </section>
+    </body>
+</html>

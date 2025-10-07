@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f7fa;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+section {
+    background-color: #a4e0f7;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #16b0ec;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #129bd2;
+}
+
+#divOculto {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #c5f3ff;
+    border: 1px solid #128ec1;
+    border-radius: 5px;
+}
