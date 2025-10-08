@@ -9,8 +9,8 @@ function cambiarColor() {
 
 function crearParrafo() {
     const div = document.getElementById("contenedorParrafos");
-    const nuevoParrafo = document.createElement("parrafo");
-    nuevoParrafo.textContent = "Hola, soy nuevo párrafo \n";
+    const nuevoParrafo = document.createElement("p");
+    nuevoParrafo.textContent = "Hola, soy nuevo párrafo";
     div.appendChild(nuevoParrafo);
 }
 
